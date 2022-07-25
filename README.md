@@ -1,6 +1,6 @@
 # Welcome! 👋
 
-This is a solution to the challenge [Pod request access landing page](https://www.frontendmentor.io/challenges/pod-request-access-landing-page-eyTmdkLSG). an early access landing page with validation of the custom form in JS will be built.
+This solution to the challenge [Pod request access landing page](https://www.frontendmentor.io/challenges/pod-request-access-landing-page-eyTmdkLSG) is under construction. an early access landing page with validation of the custom form in JS will be built.
 
 ---
 
