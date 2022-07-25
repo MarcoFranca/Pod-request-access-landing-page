@@ -1,0 +1,106 @@
+/*@media (min-width:320px) { !* smartphones, portrait iPhone, portrait 480x320 phones (Android) *! }*/
+/*@media (min-width:480px) { !* smartphones, Android phones, landscape iPhone *! }*/
+/*@media (min-width:600px) { !* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) *! }*/
+/*@media (min-width:801px) { !* tablet, landscape iPad, lo-res laptops ands desktops *! }*/
+/*@media (min-width:1025px) { !* big landscape tablets, laptops, and desktops *! }*/
+/*@media (min-width:1281px) { !* hi-res laptops and desktops *! }*/
+
+
+.background-content{
+    position: relative;
+    display: flex;
+    width: 100%;
+}
+
+.backgraund-left{
+    width: calc(100% - 888px);
+}
+
+/*podcaster background image*/
+
+.background-right{
+    position: relative;
+    background-image: url("../assets/desktop/image-host.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: opacity(100%);
+    width: 888px;
+    height: 640px;
+}
+
+.background-right:after{
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color: rgba(84, 230, 175, 0.1);
+    position: absolute;
+
+}
+
+.background-right img{
+    position: absolute;
+    right: 0;
+    bottom: -52px;
+}
+
+/*end of podcaster background image*/
+
+/*card of content*/
+.card{
+    position: absolute;
+    bottom: 0;
+    background-color: #121725;
+    height: 500px;
+    width: 640px;
+}
+
+.title-card{
+    margin-top: 85px;
+}
+
+.text-card{
+    margin-top: 27px;
+    width: 435px;
+}
+
+/*end of the card of content*/
+
+.register{
+    display: flex;
+    justify-content: space-between;
+    background-color:#2C344B;
+    width: 435px;
+    border-radius: 25px;
+    margin-top: 40px;
+}
+.register input{
+    font-family: 'Chivo', sans-serif;
+    border: none;
+    padding: 18px;
+    margin-left: 10px;
+    color: #FFFFFF;
+    background-color: transparent;
+}
+
+.register input::placeholder{
+    color: #9498aa;
+    font-weight: 600;
+}
+
+.register input:focus{
+    outline: none;
+}
+
+.register button{
+    margin: 5px;
+}
+
+.card-logos{
+    display: flex;
+    align-items: center;
+    width: 540px;
+    margin-top: 55px;
+    justify-content: space-around;
+    color: #2C344B;
+}

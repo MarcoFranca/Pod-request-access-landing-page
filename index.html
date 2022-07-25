@@ -5,15 +5,52 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Chivo:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/global.css">
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="./css/header.css">
+
   <title>Frontend Mentor | Pod request access landing page</title>
 </head>
 <body>
-  Publish your podcasts everywhere.
+<header>
+  <div class="logo">
+    <img src="./assets/desktop/logo.svg" alt="a green colored circular logo with a dark blue soundline in the middle">
+  </div>
+</header>
+<main>
+  <div class="background-content">
 
-  Upload your audio to Pod with a single click. We’ll then distribute your podcast to Spotify, 
-  Apple Podcasts, Google Podcasts, Pocket Casts and more!
+    <div class="backgraund-left">
+    </div>
+    <div class="background-right" role="img" aria-label="greenish image of a man in a cap and headset recording a podcast">
+      <img src="./assets/desktop/bg-pattern-dots.svg" alt="">
+    </div>
 
-  Request access
+    <div class="card">
+      <h1 class="title title-card">Publish your podcasts <span>everywhere.</span></h1>
+
+      <p class="text-card">Upload your audio to Pod with a single click. We’ll then distribute your podcast to Spotify,
+        Apple Podcasts, Google Podcasts, Pocket Casts and more!</p>
+
+
+      <form class="register" action="">
+        <input type="email" placeholder="Email address">
+        <button class="button">Request Access</button>
+      </form>
+
+      <div class="card-logos">
+        <img src="./assets/desktop/spotify.svg" alt="spotify company logo">
+        <img src="./assets/desktop/apple-podcast.svg" alt="Apple podcast company logo">
+        <img src="./assets/desktop/google-podcasts.svg" alt="google podcast company logo">
+        <img src="./assets/desktop/pocket-casts.svg" alt="pocket casts company logo">
+      </div>
+    </div>
+
+  </div>
+</main>
 </body>
 </html>
