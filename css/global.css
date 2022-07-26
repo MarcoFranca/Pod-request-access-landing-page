@@ -5,9 +5,8 @@ body{
     font-weight: 300;
     background-color: #121725;
     color: #b8c0d1;
-    margin-top: 50px;
     margin-left: 100px;
-    margin-bottom: 120px;
+    height: 800px;
 }
 
 .title{
@@ -48,4 +47,26 @@ body{
 input:-webkit-autofill {
     -webkit-box-shadow: 0 0 0 30px #2C344B inset;
     -webkit-text-fill-color: white !important;
+}
+
+@media screen and (max-height: 650px) {
+body{
+    height: inherit;
+    font-size: 16px;
+}
+}
+
+
+@media screen and (max-width: 1024px) {
+    body {
+        height: inherit;
+    }
+
+    .title {
+        font-size: 38px;
+        line-height: 62px;
+        font-weight: 300;
+        color: #54E6AF;
+        text-transform: uppercase;
+    }
 }

@@ -49,7 +49,7 @@
 /*card of content*/
 .card{
     position: absolute;
-    bottom: 0;
+    bottom: -1px;
     background-color: #121725;
     height: 500px;
     width: 640px;
@@ -105,4 +105,42 @@
     margin-top: 55px;
     justify-content: space-around;
     color: #2C344B;
+}
+
+@media screen and (max-height: 600px) {
+
+}
+
+@media screen and (max-width: 1024px) {
+    .background-right {
+        height: 470px;
+    }
+    .backgraund-left{
+        width: calc(100% - 560px);
+    }
+
+    .card {
+        position: absolute;
+        bottom: -1px;
+        background-color: #121725;
+        height: 368px;
+        width: 515px;
+    }
+
+    .title-card{
+        margin-top: 35px;
+    }
+
+    .text-card{
+        margin-top: 17px;
+        width: 400px;
+    }
+
+    .register {
+        margin-top: 30px;
+    }
+    .card-logos{
+        margin-top: 40px;
+    }
+
 }
