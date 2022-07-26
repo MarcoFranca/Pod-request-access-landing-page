@@ -11,6 +11,8 @@
     function validacaoEmail(field) {
         usuario = field.value.substring(0, field.value.indexOf("@"));
         dominio = field.value.substring(field.value.indexOf("@")+ 1, field.value.length);
+        user = field.value.substring(0,field.value.length)
+        btn = document.querySelector("#submit");
 
         if ((usuario.length >=1) &&
             (dominio.length >=3) &&
@@ -23,8 +25,15 @@
             (dominio.lastIndexOf(".") < dominio.length - 1)) {
             console.log("valid email address");
         }
-        else{
+        else if (user == ""){
+            event.preventDefault();
+            document.getElementById("msgemail").innerHTML="<p class='alert'>Oops! Please add your email </p>";
+            console.log("please add your email address");
+        }else
+        {
             document.getElementById("msgemail").innerHTML="<p class='alert'>Oops! Please check your email </p>";
             console.log("Invalid email address");
         }
     }
+
+
