@@ -29,11 +29,13 @@
             event.preventDefault();
             document.getElementById("msgemail").innerHTML="<p class='alert'>Oops! Please add your email </p>";
             console.log("please add your email address");
-        }else
+        }
+        else
         {
             document.getElementById("msgemail").innerHTML="<p class='alert'>Oops! Please check your email </p>";
             console.log("Invalid email address");
         }
     }
+
 
 
