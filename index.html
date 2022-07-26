@@ -36,11 +36,13 @@
       <p class="text-card">Upload your audio to Pod with a single click. We’ll then distribute your podcast to Spotify,
         Apple Podcasts, Google Podcasts, Pocket Casts and more!</p>
 
-
-      <form class="register" action="">
-        <input type="email" placeholder="Email address">
-        <button class="button">Request Access</button>
+      <form name="register" class="register" action="">
+        <input name="email" type="email" placeholder="Email address" onblur="validacaoEmail(register.email)">
+        <button name="register" class="button">Request Access</button>
       </form>
+      <div id="msgemail">
+
+      </div>
 
       <div class="card-logos">
         <img src="./assets/desktop/spotify.svg" alt="spotify company logo">
@@ -53,4 +55,5 @@
   </div>
 </main>
 </body>
+<script src="js/script.js"></script>
 </html>
