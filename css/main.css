@@ -107,11 +107,8 @@
     color: #2C344B;
 }
 
-@media screen and (max-height: 600px) {
-
-}
-
-@media screen and (max-width: 1024px) {
+/*desktop 1024*/
+@media screen and (max-width: 1024px) and (min-width:913px) {
     .background-right {
         height: 470px;
     }
@@ -133,7 +130,6 @@
 
     .text-card{
         margin-top: 17px;
-        width: 400px;
     }
 
     .register {
@@ -143,4 +139,64 @@
         margin-top: 40px;
     }
 
+}
+
+/*tablet surfacepro 7*/
+@media screen and (max-width:912px) {
+    .backgraund-left {
+        width: calc(100% - 500px);
+    }
+
+    .background-right {
+        position: inherit;
+        background-image: url("../assets/tablet/image-host.jpg");
+        height: 953px;
+    }
+
+    .background-content{
+        width: 100%;
+    }
+
+    .card {
+        bottom: -2px;
+        height: 629px;
+        width: 740px;
+    }
+
+    .text-card{
+        margin-top: 25px;
+    }
+
+    .register {
+        margin-top: 50px;
+    }
+
+    .card-logos{
+        margin-top: 100px;
+    }
+
+    .background-right img{
+        position: absolute;
+        left: -240px;
+        bottom: -409px;
+    }
+    main{
+        height: 100vh;
+        position: relative;
+    }
+
+}
+
+@media screen and (max-width:820px) {
+    .background-right img{
+        position: absolute;
+        left: -208px;
+        bottom: -219px;
+    }
+
+    .background-right {
+        position: inherit;
+        background-image: url("../assets/tablet/image-host.jpg");
+        width: 701px;
+    }
 }

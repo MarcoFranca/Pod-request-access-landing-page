@@ -52,14 +52,14 @@ input:-webkit-autofill {
 @media screen and (max-height: 650px) {
 body{
     height: inherit;
-    font-size: 16px;
 }
 }
 
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1024px) and (min-width:913px) {
     body {
         height: inherit;
+        font-size: 16px;
     }
 
     .title {
@@ -68,5 +68,14 @@ body{
         font-weight: 300;
         color: #54E6AF;
         text-transform: uppercase;
+    }
+}
+
+/*tablet surfacepro 7*/
+@media screen and (max-width:912px) {
+
+    body{
+        margin-left: 50px;
+        font-size: 18px;
     }
 }

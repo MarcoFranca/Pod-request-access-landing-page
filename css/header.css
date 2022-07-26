@@ -2,3 +2,12 @@
 position: relative;
     bottom: -40px;
 }
+
+/*tablet surfacepro 7*/
+@media screen and (max-width:912px) {
+.logo{
+    position: absolute;
+    bottom: inherit;
+    top: 80px;
+}
+}
