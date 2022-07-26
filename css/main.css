@@ -200,3 +200,109 @@
         width: 701px;
     }
 }
+
+/*mobiles 480px*/
+@media (max-width:480px) {
+
+    body{
+        margin: 0;
+        height: 100vh;
+    }
+
+    .logo{
+        left: calc(50% - 100px);
+        width: 200px;
+        z-index: 1;
+    }
+
+    .logo img{
+        width: 100%;
+
+    }
+
+    .background-content{
+      background-image: url("../assets/mobile/image-host.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 100%;
+    }
+
+    .background-right{
+        display: none;
+    }
+
+    .backgraund-left{
+        display: none;
+    }
+    .card{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-top: 200px;
+        width: 100%;
+        background-color: inherit;
+        position: inherit;
+        z-index: 1;
+    }
+
+    .title-card{
+        margin-top: 25px;
+    }
+
+    .background-content:after{
+        content: '';
+        width: 100%;
+        height: 100%;
+        background-color: rgba(18, 23, 37, 0.9);
+        position: absolute;
+
+    }
+    .text-card{
+        width: 380px;
+    }
+    .form{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        position: relative;
+        width: 100%;
+    }
+    .card-logos{
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+        margin-top: 50px;
+    }
+
+    .card-logos img{
+        height: 18px;
+    }
+
+    .register{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: inherit;
+        width: 90%;
+    }
+
+    .register input{
+        background-color: #2C344B;
+        width: 80%;
+        border-radius: 25px;
+    }
+
+    .register button{
+        margin-top: 20px;
+        width: 90%;
+        height: 50px;
+    }
+
+    .alert{
+        left: 25px;
+        bottom: -30px;
+    }
+
+}
