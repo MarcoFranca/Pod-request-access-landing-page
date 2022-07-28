@@ -1,6 +1,6 @@
 # Welcome! 👋
 
-This solution to the challenge [Pod request access landing page](https://www.frontendmentor.io/challenges/pod-request-access-landing-page-eyTmdkLSG) is under construction. an early access landing page with validation of the custom form in JS will be built.
+This solution to the challenge [Pod request access landing page](https://www.frontendmentor.io/challenges/pod-request-access-landing-page-eyTmdkLSG) That i built an early access landing page with custom form validation in JS.
 
 ---
 
@@ -24,7 +24,7 @@ Users should be able to:
 ![gif of template](./assets/readme/preview.jpg)
 
 - [solution URL](https://github.com/MarcoFranca/Pod-request-access-landing-page)
-- [live site URL](https://github.com/MarcoFranca/Pod-request-access-landing-page)
+- [live site URL](https://marcofranca.github.io/Pod-request-access-landing-page/)
 
 ## My process
 
